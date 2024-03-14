@@ -1,0 +1,9 @@
++-+ [doHDTCatTree] ----------------- elapsed=1282194ms
+  +-+ [generateHDT #1] --------------- elapsed=1282188ms
+    +-+ [doGenerateHDTDisk] ------------ elapsed=1281444ms
+      +-- [section compression] ---------- elapsed=862556ms
+      +-- [dictionary write] ------------- elapsed=188511ms
+      +-- [triple compression/map] ------- elapsed=173062ms
+      +-- [bit triple creation] ---------- elapsed=52617ms
+      +-- [header creation] -------------- elapsed=30ms
+      +-- [map to hdt] ------------------- elapsed=4384ms

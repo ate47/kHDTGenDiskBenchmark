@@ -1,0 +1,7 @@
+[submodule "qendpoint"]
+	path = qendpoint
+	url = https://github.com/the-qa-company/qEndpoint
+	branch = predev_rdf4j
+[submodule "wiki-changes"]
+	path = wiki-changes
+	url = https://github.com/the-qa-company/wiki-changes

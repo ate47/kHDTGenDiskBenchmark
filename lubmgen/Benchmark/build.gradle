@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+}
+
+group = 'com.the-qa-company'
+version = '1.0-SNAPSHOT'
+
+repositories {
+
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.the-qa-company:qendpoint:1.15.3'
+}
+
+test {
+    useJUnitPlatform()
+}
