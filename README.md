@@ -1,5 +1,5 @@
 # kHDTGenDiskBenchmark
-Experiments scripts for the benchmark used in k-HDTCat
+Experiments scripts for the benchmark used in k-HDTDiffCat
 
 ## Lubm generation
 
