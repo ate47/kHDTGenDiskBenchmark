@@ -2,7 +2,7 @@
 
 First generate the LUBM files you want to test using the script [jm-gimenez-garcia/lubm-batch](https://github.com/jm-gimenez-garcia/lubm-batch) into .nt form.
 
-The experiments were ran using this dataset
+The experiments were run using this dataset
 
 ```
 19G lubm01000.nt
@@ -23,7 +23,7 @@ The experiments were ran using this dataset
 77G lubm40000.nt
 ```
 
-Generate the benchmark code in the Benchmark directory, it can be done with `./gradlew shadowJar` command. Copy the compiled file in `build/libs/Benchmark-???-all.jar` and rename it to `bench.jar`.
+Generate the benchmark code in the Benchmark directory, it can be done with the `./gradlew shadowJar` command. Copy the compiled file in `build/libs/Benchmark-???-all.jar` and rename it to `bench.jar`.
 
 Then run the script `./gen_test.sh`, it'll run the experiments 10 times (or less if stopped). The profiling files will be put in `profiling-[run]/[nt file].hdt.prof`.
 

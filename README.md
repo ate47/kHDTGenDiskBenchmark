@@ -11,7 +11,7 @@ Experiments scripts for the benchmark used in k-HDTDiffCat
 
 ## Wiki changes
 
-In [wiki-changes](https://github.com/the-qa-company/wiki-changes). The user should have a precomputed Wikidata truthy HDT. See [Wikidata generation](#wikidata-generation).
+In [wiki-changes](https://github.com/the-qa-company/wiki-changes). The user should have a recent precomputed Wikidata truthy HDT. See [Wikidata generation](#wikidata-generation).
 
 Compile it with `./gradlew shadowJar`.
 
@@ -23,7 +23,7 @@ java -cp wiki-changes.jar com.the_qa_company.wikidatachanges.WikidataChangesDelt
 
 `2023-10-31T00:40:00Z` is the date to rollback
 
-I'll create a delta.df file
+It'll create a `delta.df` file containing the dataset updates.
 
 ```pwsh
 ## PREPARE DATA
